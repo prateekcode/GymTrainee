@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Gym Trainee</string>
+    <string name="img_des">Image Description</string>
+    <string name="api_key">AIzaSyD6ZvbHP3BPAS4ZqMkQdC13Zun30tKhoZ4</string>
+    <string name="home_workout">Home Workout</string>
+    <string name="loading">Loading</string>
+    <string name="Done">Done</string>
+    <string name="saved">Saved</string>
+    <string name="favorite_video">Favorite videos</string>
+    <string name="pro_tip">Tips :</string>
+    <string name="save">Save</string>
+    <string name="internet_error">Connect to Internet</string>
+    <string name="glide_error">Unable to load Image</string>
+    <string name="favorite">favorite</string>
+    <string name="full_body_workout">Full Body Workout</string>
+    <string name="arms_workout">Arms Workout</string>
+    <string name="abs_workout">Abs Workout</string>
+    <string name="back_and_shoulder_workout">Back and Shoulder Workout</string>
+    <string name="upper_body_workout">Upper Body Workout</string>
+    <string name="lower_body_workout">Lower Body Workout</string>
+    <string name="access_fav_vid">Access your favorite videos</string>
+    <string name="just_click_on_btn">Just Click on below button</string>
+</resources>
