@@ -3,6 +3,14 @@ apply plugin: 'com.google.gms.google-services'
 apply plugin: 'com.google.firebase.crashlytics'
 
 android {
+    signingConfigs {
+        config {
+            storeFile file('C:\\Users\\prati\\Udacity Android Course\\GymTrainee\\gymtraineekey.jks')
+            storePassword 'prateekGym'
+            keyAlias = 'prateekcode'
+            keyPassword 'prateekGym'
+        }
+    }
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
 
