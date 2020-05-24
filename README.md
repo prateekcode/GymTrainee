@@ -24,5 +24,4 @@ workout.
 * Youtube Player
 
 ## Screenshots
-![Splash Screen][logo]
-[logo]: https://github.com/prateekcode/GymTrainee/blob/master/screenshots/splash.png
+![alt text](https://github.com/prateekcode/GymTrainee/blob/master/screenshots/splash.png "Splash")
