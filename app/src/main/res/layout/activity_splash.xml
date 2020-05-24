@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/NoActionBarStyle"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".ui.SplashActivity">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_centerInParent="true"
+        android:src="@drawable/app_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:id="@+id/app_name_id"
+        android:layout_below="@id/app_logo"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/app_name"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/text_view_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_name_id"
+        android:layout_alignStart="@+id/app_name_id"
+        android:layout_alignEnd="@+id/app_name_id"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="-7dp"
+        android:layout_marginEnd="35dp"
+        android:text="Workout On Your Own!"
+        android:textColor="@android:color/white"
+        android:textSize="22sp" />
+
+    <ProgressBar
+        android:id="@+id/pb_loader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_1"
+        android:layout_alignStart="@+id/text_view_1"
+        android:layout_alignEnd="@+id/text_view_1"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="85dp" />
+
+
+</RelativeLayout>

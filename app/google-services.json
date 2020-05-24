@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "356280556156",
+    "firebase_url": "https://gym-trainee.firebaseio.com",
+    "project_id": "gym-trainee",
+    "storage_bucket": "gym-trainee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356280556156:android:5c5d5081198ac6cf9447f9",
+        "android_client_info": {
+          "package_name": "com.androidmonk.gymtrainee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356280556156-gmva4pm2m3qrp0lddb3uca5ivvmt0lrb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.androidmonk.gymtrainee",
+            "certificate_hash": "b45c10e7e87493b921eb6f6ee7a466b4f658f75c"
+          }
+        },
+        {
+          "client_id": "356280556156-0jc27l2cnhgrqsvd2r12hsuig5ktsclr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG48vWtVAu_96aiE0DMlbF4PzgHPMCUwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356280556156-0jc27l2cnhgrqsvd2r12hsuig5ktsclr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

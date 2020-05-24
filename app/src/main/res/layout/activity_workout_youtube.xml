@@ -100,21 +100,23 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:background="@color/colorAccent"
+            android:background="@color/colorPrimary"
             android:textColor="@android:color/white"
             android:text="@string/save"
             />
-        <Button
-            android:id="@+id/workout_done_btn"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:background="@color/colorPrimary"
-            android:textColor="@android:color/white"
-            android:text="@string/Done"
-            />
+
 
     </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/workout_done_btn"
+        android:src="@drawable/ic_check"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 
 </RelativeLayout>

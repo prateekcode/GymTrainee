@@ -15,6 +15,8 @@ import com.androidmonk.gymtrainee.data.WorkoutTipsContainer;
 import com.androidmonk.gymtrainee.database.MyRoomDatabase;
 import com.androidmonk.gymtrainee.database.VideoEntity;
 import com.androidmonk.gymtrainee.model.Video;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.firebase.analytics.FirebaseAnalytics;
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer;
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener;
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView;
@@ -34,11 +36,12 @@ public class WorkoutYoutubeActivity extends AppCompatActivity {
     private String video_title;
     private VideoEntity videoEntity;
     private MyRoomDatabase db;
+    private FirebaseAnalytics mFirebaseAnalytics;
 
     @BindView(R.id.youtube_player)
     YouTubePlayerView youTubePlayerView;
     @BindView(R.id.workout_done_btn)
-    Button done_btn;
+    FloatingActionButton done_btn;
     @BindView(R.id.saveVideo_btn)
     Button save_btn;
     @BindView(R.id.workout_tips_text)
@@ -58,6 +61,8 @@ public class WorkoutYoutubeActivity extends AppCompatActivity {
 
         textView_des.setText(video_des);
         textView_tips.setText(new WorkoutTipsContainer().getTip());
+
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
         accessDatabase();
         youtubePlayerView();

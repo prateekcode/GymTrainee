@@ -19,6 +19,8 @@ import com.androidmonk.gymtrainee.component.UniversalComponents;
 import com.androidmonk.gymtrainee.model.VideoItem;
 import com.androidmonk.gymtrainee.model.VideoResult;
 import com.androidmonk.gymtrainee.utils.AppConstants;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 import java.util.List;
 
@@ -46,6 +48,8 @@ public class WorkoutListActivity extends AppCompatActivity {
     ProgressBar progressBar;
     @BindView(R.id.video_list_recyclerView)
     RecyclerView recyclerView;
+    @BindView(R.id.adView_banner)
+    AdView adView;
 
     private String workout_name = "";
     private UniversalComponents components;
@@ -65,6 +69,9 @@ public class WorkoutListActivity extends AppCompatActivity {
 
         components.inject(WorkoutListActivity.this);
         recyclerView.setLayoutManager(linearLayoutManager);
+
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
 
         //titleActionBar
         workoutTitle();

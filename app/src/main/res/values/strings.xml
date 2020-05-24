@@ -2,13 +2,12 @@
     <string name="app_name">Gym Trainee</string>
     <string name="img_des">Image Description</string>
     <string name="api_key">AIzaSyD6ZvbHP3BPAS4ZqMkQdC13Zun30tKhoZ4</string>
-    <string name="home_workout">Home Workout</string>
     <string name="loading">Loading</string>
     <string name="Done">Done</string>
     <string name="saved">Saved</string>
     <string name="favorite_video">Favorite videos</string>
     <string name="pro_tip">Tips :</string>
-    <string name="save">Save</string>
+    <string name="save">Add to Favorite</string>
     <string name="internet_error">Connect to Internet</string>
     <string name="glide_error">Unable to load Image</string>
     <string name="favorite">favorite</string>
@@ -20,4 +19,6 @@
     <string name="lower_body_workout">Lower Body Workout</string>
     <string name="access_fav_vid">Access your favorite videos</string>
     <string name="just_click_on_btn">Just Click on below button</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+
 </resources>

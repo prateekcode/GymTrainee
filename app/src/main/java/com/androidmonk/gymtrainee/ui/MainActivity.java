@@ -19,11 +19,14 @@ import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
+import com.google.firebase.analytics.FirebaseAnalytics;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
+
+    private FirebaseAnalytics mFirebaseAnalytics;
 
     @BindView(R.id.main_recyclerview)
     RecyclerView recyclerView;
@@ -40,12 +43,6 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         setSupportActionBar(toolbar);
 
-        MobileAds.initialize(this, new OnInitializationCompleteListener() {
-            @Override
-            public void onInitializationComplete(InitializationStatus initializationStatus) {
-
-            }
-        });
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         recyclerView.setAdapter(new WorkoutListAdapter(MainActivity.this, new WorkoutListContainer().provideWorkoutDataList(MainActivity.this
@@ -53,7 +50,11 @@ public class MainActivity extends AppCompatActivity {
 
         AdRequest adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);
+
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
     }
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

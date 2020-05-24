@@ -14,6 +14,8 @@ import com.androidmonk.gymtrainee.adapter.FavoriteAdapter;
 import com.androidmonk.gymtrainee.component.UniversalComponents;
 import com.androidmonk.gymtrainee.database.MyRoomDatabase;
 import com.androidmonk.gymtrainee.database.VideoEntity;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 
 import java.util.List;
 
@@ -26,6 +28,8 @@ public class FavoriteActivity extends AppCompatActivity {
 
     @BindView(R.id.favorite_recyclerView)
     RecyclerView recyclerView;
+    @BindView(R.id.adView_banner)
+    AdView adView;
 
     @Inject
     LinearLayoutManager linearLayoutManager;
@@ -48,6 +52,9 @@ public class FavoriteActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("Favorite Videos");
         db = MyRoomDatabase.getInstance(this);
         recyclerView.setLayoutManager(linearLayoutManager);
+
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
 
     }
 
