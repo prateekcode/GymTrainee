@@ -22,3 +22,6 @@ workout.
 * RxJava
 * Butterknife
 * Youtube Player
+
+## Screenshots
+![alt text](https://github.com/prateekcode/GymTrainee/blob/master/screenshots/splash.png "Splash")
