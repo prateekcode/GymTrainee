@@ -5,7 +5,7 @@ apply plugin: 'com.google.firebase.crashlytics'
 android {
     signingConfigs {
         config {
-            storeFile file('C:\\Users\\prati\\Udacity Android Course\\GymTrainee\\gymtraineekey.jks')
+            storeFile file('keystore/debug.keystore')
             storePassword 'prateekGym'
             keyAlias = 'prateekcode'
             keyPassword 'prateekGym'

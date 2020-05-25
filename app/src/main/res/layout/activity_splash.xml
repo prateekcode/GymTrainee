@@ -12,6 +12,7 @@
         android:id="@+id/app_logo"
         android:layout_centerInParent="true"
         android:src="@drawable/app_logo"
+        android:contentDescription="@string/logo_des"
         android:layout_width="200dp"
         android:layout_height="200dp"/>
 
@@ -37,7 +38,7 @@
         android:layout_marginStart="26dp"
         android:layout_marginTop="-7dp"
         android:layout_marginEnd="35dp"
-        android:text="Workout On Your Own!"
+        android:text="@string/subheading"
         android:textColor="@android:color/white"
         android:textSize="22sp" />
 
@@ -45,6 +46,7 @@
         android:id="@+id/pb_loader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/progressbar"
         android:layout_below="@+id/text_view_1"
         android:layout_alignStart="@+id/text_view_1"
         android:layout_alignEnd="@+id/text_view_1"

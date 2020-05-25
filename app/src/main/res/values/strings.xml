@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">Gym Trainee</string>
     <string name="img_des">Image Description</string>
-    <string name="api_key">ENTER YOUTUBE API KEY</string>
+    <string name="logo_des">Gym Trainee Logo</string>
+    <string name="subheading">Workout On Your Own!</string>
+    <string name="progressbar">Progress Bar</string>
+    <string name="api_key">YOUTUBE API KEY</string>
     <string name="loading">Loading</string>
     <string name="Done">Done</string>
     <string name="saved">Saved</string>
