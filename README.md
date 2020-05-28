@@ -10,6 +10,9 @@ videos from the section and you’re done. You can save your workout too for lat
 When you’re done just click on the check button which keeps you motivated while doing the
 workout.
 
+### [DOWNLOAD THE GYMTRAINEE APP](app/release/app-release.apk)
+
+
 ## Features
 * Workout videos
 * Save favorite workout videos
