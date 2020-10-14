@@ -27,6 +27,6 @@ workout.
 * Youtube Player
 
 ## Screenshots
-<img src= "screenshots/splash.png" width = "250" > <img src = "screenshots/homepage.png" width = "250" >
- <img src = "screenshots/workoutlist.png" width = "250" > <img src = "screenshots/playerview.png" width = "250" >
+<img src= "screenshots/splash.png" width = "200" > <img src = "screenshots/homepage.png" width = "200" >
+ <img src = "screenshots/workoutlist.png" width = "200" > <img src = "screenshots/playerview.png" width = "200" >
 
